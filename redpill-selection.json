@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "maxConcurrency": 500,
+  "select": [
+    "openai/gpt-6.1-sol",
+    "openai/gpt-6-astra",
+    "openai/gpt-6-sol",
+    "openai/gpt-6-luna",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra",
+    "openai/gpt-5.6-luna",
+    "qwen/qwen3.8-27b",
+    "qwen/qwen-2.5-7b-instruct",
+    "qwen/qwen3.6-27b",
+    "moonshotai/kimi-k3",
+    "z-ai/glm-5.1",
+    "moonshotai/kimi-k2.6",
+    "qwen/qwen3-vl-30b-a3b-instruct",
+    "qwen/qwen3-32b",
+    "qwen/qwen3.5-27b",
+    "qwen/qwen3.5-397b-a17b",
+    "qwen/qwen3.6-35b-a3b",
+    "deepseek/deepseek-v4.1-flash-1017",
+    "tencent/hy3",
+    "deepseek/deepseek-v4.1-flash",
+    "deepseek/deepseek-v4-flash-0731",
+    "z-ai/glm-5.3-flash",
+    "openai/gpt-oss-120b",
+    "deepseek/deepseek-v3.2",
+    "deepseek/deepseek-v4-pro-0813",
+    "nousresearch/hermes-3-llama-3.1-405b",
+    "z-ai/glm-5.3",
+    "z-ai/glm-5.2",
+    "meta-llama/llama-3.3-70b-instruct",
+    "google/gemma-4-31b-it",
+    "phala/gemma-4-26b-a4b-uncensored",
+    "phala/qwen3.8-27b-uncensored"
+  ],
+  "extraCategories": {
+    "openai/gpt-6.1-sol": [
+      "coding"
+    ],
+    "openai/gpt-6-astra": [
+      "coding"
+    ],
+    "openai/gpt-6-sol": [
+      "coding"
+    ],
+    "openai/gpt-6-luna": [
+      "coding"
+    ],
+    "openai/gpt-5.6-sol": [
+      "coding"
+    ],
+    "openai/gpt-5.6-terra": [
+      "coding"
+    ],
+    "openai/gpt-5.6-luna": [
+      "coding"
+    ]
+  }
+}
