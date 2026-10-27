@@ -1000,6 +1000,275 @@
               "top_p"
             ]
           }
+        },
+        "z-ai/glm-5.3": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1.4,
+            "cachedInputUsdPerMillion": 0.26,
+            "outputUsdPerMillion": 4.4
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 1048576,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_completion_tokens",
+              "max_tokens",
+              "min_p",
+              "parallel_tool_calls",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "z-ai/glm-5.2": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1.26,
+            "cachedInputUsdPerMillion": 0.22,
+            "outputUsdPerMillion": 3
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 131072,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "min_p",
+              "parallel_tool_calls",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "meta-llama/llama-3.3-70b-instruct": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 2,
+            "cachedInputUsdPerMillion": 2,
+            "outputUsdPerMillion": 2
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 131072,
+            "maxOutputTokens": 16384,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "google/gemma-4-31b-it": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.15,
+            "cachedInputUsdPerMillion": 0.075,
+            "outputUsdPerMillion": 0.46
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_a",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "phala/gemma-4-26b-a4b-uncensored": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.15,
+            "cachedInputUsdPerMillion": 0.05,
+            "outputUsdPerMillion": 0.7
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "phala/qwen3.8-27b-uncensored": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.3,
+            "cachedInputUsdPerMillion": 0.05,
+            "outputUsdPerMillion": 1.5
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
         }
       }
     }
