@@ -7,9 +7,9 @@
         "openai/gpt-6.1-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2,
-            "cachedInputUsdPerMillion": 0.1,
-            "outputUsdPerMillion": 10
+            "inputUsdPerMillion": 0.04185,
+            "cachedInputUsdPerMillion": 0.003761,
+            "outputUsdPerMillion": 0.395
           },
           "categories": [
             "chat",
@@ -40,9 +40,9 @@
         "openai/gpt-6-astra": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 10,
-            "cachedInputUsdPerMillion": 1,
-            "outputUsdPerMillion": 50
+            "inputUsdPerMillion": 0.1975,
+            "cachedInputUsdPerMillion": 0.03292,
+            "outputUsdPerMillion": 1.082
           },
           "categories": [
             "chat",
@@ -73,9 +73,9 @@
         "openai/gpt-6-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2,
-            "cachedInputUsdPerMillion": 0.2,
-            "outputUsdPerMillion": 10
+            "inputUsdPerMillion": 0.04232,
+            "cachedInputUsdPerMillion": 0.005078,
+            "outputUsdPerMillion": 0.301
           },
           "categories": [
             "chat",
@@ -106,9 +106,9 @@
         "openai/gpt-6-luna": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 0.1,
-            "cachedInputUsdPerMillion": 0.01,
-            "outputUsdPerMillion": 0.5
+            "inputUsdPerMillion": 0.008546,
+            "cachedInputUsdPerMillion": 0.002849,
+            "outputUsdPerMillion": 0.02612
           },
           "categories": [
             "chat",
@@ -139,9 +139,9 @@
         "openai/gpt-5.6-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 4,
-            "cachedInputUsdPerMillion": 0.4,
-            "outputUsdPerMillion": 20
+            "inputUsdPerMillion": 0.05455,
+            "cachedInputUsdPerMillion": 0.01693,
+            "outputUsdPerMillion": 0.3273
           },
           "categories": [
             "chat",
@@ -172,9 +172,9 @@
         "openai/gpt-5.6-terra": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2,
-            "cachedInputUsdPerMillion": 0.2,
-            "outputUsdPerMillion": 12
+            "inputUsdPerMillion": 0.03668,
+            "cachedInputUsdPerMillion": 0.004607,
+            "outputUsdPerMillion": 0.237
           },
           "categories": [
             "chat",
@@ -205,9 +205,9 @@
         "openai/gpt-5.6-luna": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 0.2,
-            "cachedInputUsdPerMillion": 0.02,
-            "outputUsdPerMillion": 1.2
+            "inputUsdPerMillion": 0.01918,
+            "cachedInputUsdPerMillion": 0.003761,
+            "outputUsdPerMillion": 0.1091
           },
           "categories": [
             "chat",
