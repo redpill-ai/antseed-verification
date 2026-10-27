@@ -7,60 +7,99 @@
         "openai/gpt-6.1-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2.0,
+            "inputUsdPerMillion": 2,
             "cachedInputUsdPerMillion": 0.1,
-            "outputUsdPerMillion": 10.0
+            "outputUsdPerMillion": 10
           },
           "categories": [
             "chat",
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
         "openai/gpt-6-astra": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 10.0,
-            "cachedInputUsdPerMillion": 1.0,
-            "outputUsdPerMillion": 50.0
+            "inputUsdPerMillion": 10,
+            "cachedInputUsdPerMillion": 1,
+            "outputUsdPerMillion": 50
           },
           "categories": [
             "chat",
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
         "openai/gpt-6-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2.0,
+            "inputUsdPerMillion": 2,
             "cachedInputUsdPerMillion": 0.2,
-            "outputUsdPerMillion": 10.0
+            "outputUsdPerMillion": 10
           },
           "categories": [
             "chat",
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
@@ -76,51 +115,90 @@
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
         "openai/gpt-5.6-sol": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 4.0,
+            "inputUsdPerMillion": 4,
             "cachedInputUsdPerMillion": 0.4,
-            "outputUsdPerMillion": 20.0
+            "outputUsdPerMillion": 20
           },
           "categories": [
             "chat",
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
         "openai/gpt-5.6-terra": {
           "enabled": true,
           "pricing": {
-            "inputUsdPerMillion": 2.0,
+            "inputUsdPerMillion": 2,
             "cachedInputUsdPerMillion": 0.2,
-            "outputUsdPerMillion": 12.0
+            "outputUsdPerMillion": 12
           },
           "categories": [
             "chat",
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
             "inputs": [
+              "image",
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
             ]
           }
         },
@@ -136,11 +214,790 @@
             "coding"
           ],
           "capabilities": {
+            "contextWindow": 272000,
+            "maxOutputTokens": 128000,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "tool_choice",
+              "tools"
+            ]
+          }
+        },
+        "qwen/qwen3.8-27b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.2,
+            "cachedInputUsdPerMillion": 0.05,
+            "outputUsdPerMillion": 2.5
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1000000,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen-2.5-7b-instruct": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.1,
+            "cachedInputUsdPerMillion": 0.1,
+            "outputUsdPerMillion": 0.2
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 32768,
+            "maxOutputTokens": 32768,
             "inputs": [
               "text"
             ],
             "outputs": [
               "text"
+            ],
+            "reasoning": false,
+            "toolUse": true,
+            "structuredOutput": false,
+            "supportedParameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen3.6-27b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.32,
+            "cachedInputUsdPerMillion": 0.03,
+            "outputUsdPerMillion": 3.25
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262140,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "moonshotai/kimi-k3": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 3,
+            "cachedInputUsdPerMillion": 0.3,
+            "outputUsdPerMillion": 15
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 1048576,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "z-ai/glm-5.1": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1.21,
+            "cachedInputUsdPerMillion": 0.6,
+            "outputUsdPerMillion": 4.2
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 202752,
+            "maxOutputTokens": 128000,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "parallel_tool_calls",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "moonshotai/kimi-k2.6": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1.09,
+            "cachedInputUsdPerMillion": 0.37,
+            "outputUsdPerMillion": 4.6
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "parallel_tool_calls",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen3-vl-30b-a3b-instruct": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.2,
+            "cachedInputUsdPerMillion": 0.03,
+            "outputUsdPerMillion": 0.7
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 128000,
+            "maxOutputTokens": 32768,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen3-32b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.12,
+            "cachedInputUsdPerMillion": 0.052,
+            "outputUsdPerMillion": 0.5
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 40960,
+            "maxOutputTokens": 16384,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "qwen/qwen3.5-27b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.3,
+            "cachedInputUsdPerMillion": 0.03,
+            "outputUsdPerMillion": 2.4
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 65536,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen3.5-397b-a17b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.55,
+            "cachedInputUsdPerMillion": 0.225,
+            "outputUsdPerMillion": 3.5
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "qwen/qwen3.6-35b-a3b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.2,
+            "cachedInputUsdPerMillion": 0.056,
+            "outputUsdPerMillion": 1.27
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "deepseek/deepseek-v4.1-flash-1017": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.75,
+            "cachedInputUsdPerMillion": 0.15,
+            "outputUsdPerMillion": 1.6
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 393216,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": true,
+            "structuredOutput": false,
+            "supportedParameters": [
+              "max_tokens",
+              "response_format",
+              "temperature",
+              "tool_choice",
+              "tools"
+            ]
+          }
+        },
+        "tencent/hy3": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.15,
+            "cachedInputUsdPerMillion": 0.04,
+            "outputUsdPerMillion": 0.64
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 262144,
+            "maxOutputTokens": 262144,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_completion_tokens",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "deepseek/deepseek-v4.1-flash": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.3,
+            "cachedInputUsdPerMillion": 0.006,
+            "outputUsdPerMillion": 1.2
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 1048576,
+            "inputs": [
+              "image",
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "deepseek/deepseek-v4-flash-0731": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.44,
+            "cachedInputUsdPerMillion": 0.028,
+            "outputUsdPerMillion": 1.32
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 393216,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "z-ai/glm-5.3-flash": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.15,
+            "cachedInputUsdPerMillion": 0.03,
+            "outputUsdPerMillion": 0.5
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 131072,
+            "inputs": [
+              "image",
+              "text",
+              "video"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_completion_tokens",
+              "max_tokens",
+              "min_p",
+              "parallel_tool_calls",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "openai/gpt-oss-120b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 0.15,
+            "cachedInputUsdPerMillion": 0.15,
+            "outputUsdPerMillion": 0.6
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 131072,
+            "maxOutputTokens": 32768,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "reasoning_effort",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ]
+          }
+        },
+        "deepseek/deepseek-v3.2": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1,
+            "cachedInputUsdPerMillion": 0.5,
+            "outputUsdPerMillion": 1
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 163840,
+            "maxOutputTokens": 64000,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": true,
+            "toolUse": true,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ]
+          }
+        },
+        "deepseek/deepseek-v4-pro-0813": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1.45,
+            "cachedInputUsdPerMillion": 0.15,
+            "outputUsdPerMillion": 4.36
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 1048576,
+            "maxOutputTokens": 393216,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": false
+          }
+        },
+        "nousresearch/hermes-3-llama-3.1-405b": {
+          "enabled": true,
+          "pricing": {
+            "inputUsdPerMillion": 1,
+            "cachedInputUsdPerMillion": 1,
+            "outputUsdPerMillion": 1
+          },
+          "categories": [
+            "chat"
+          ],
+          "capabilities": {
+            "contextWindow": 131072,
+            "maxOutputTokens": 16384,
+            "inputs": [
+              "text"
+            ],
+            "outputs": [
+              "text"
+            ],
+            "reasoning": false,
+            "toolUse": false,
+            "structuredOutput": true,
+            "supportedParameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "top_k",
+              "top_p"
             ]
           }
         }
