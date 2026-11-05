@@ -33,7 +33,6 @@
     "z-ai/glm-5.3",
     "z-ai/glm-5.2",
     "meta-llama/llama-3.3-70b-instruct",
-    "google/gemma-4-31b-it",
     "phala/gemma-4-26b-a4b-uncensored",
     "phala/qwen3.8-27b-uncensored"
   ],
