@@ -2,6 +2,8 @@
   "schemaVersion": 2,
   "maxConcurrency": 500,
   "select": [
+    "openai/gpt-6.2-sol",
+    "openai/gpt-6.2-astra",
     "openai/gpt-6.1-sol",
     "openai/gpt-6.1-terra",
     "openai/gpt-6-astra",
@@ -58,6 +60,12 @@
       "coding"
     ],
     "openai/gpt-6.1-terra": [
+      "coding"
+    ],
+    "openai/gpt-6.2-sol": [
+      "coding"
+    ],
+    "openai/gpt-6.2-astra": [
       "coding"
     ]
   },
