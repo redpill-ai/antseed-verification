@@ -35,8 +35,12 @@
     "z-ai/glm-5.3",
     "meta-llama/llama-3.3-70b-instruct",
     "phala/gemma-4-26b-a4b-uncensored",
-    "phala/qwen3.8-27b-uncensored"
+    "phala/qwen3.8-27b-uncensored",
+    "phala/deepseek-v4.1-flash-1017-uncensored"
   ],
+  "aliases": {
+    "deepseek-v4.1-flash-uncensored": "phala/deepseek-v4.1-flash-1017-uncensored"
+  },
   "extraCategories": {
     "openai/gpt-6.1-sol": [
       "coding"
