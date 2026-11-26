@@ -21,7 +21,26 @@
     "nousresearch/hermes-3-llama-3.1-405b",
     "z-ai/glm-5.3",
     "phala/qwen3.8-27b-uncensored",
-    "phala/deepseek-v4.1-flash-1017-uncensored"
+    "phala/deepseek-v4.1-flash-1017-uncensored",
+    "qwen/qwen-2.5-7b-instruct",
+    "qwen/qwen3.6-27b",
+    "moonshotai/kimi-k3",
+    "z-ai/glm-5.1",
+    "moonshotai/kimi-k2.6",
+    "qwen/qwen3-vl-30b-a3b-instruct",
+    "qwen/qwen3.5-27b",
+    "qwen/qwen3.5-397b-a17b",
+    "qwen/qwen3.6-35b-a3b",
+    "deepseek/deepseek-v4-flash-0731",
+    "z-ai/glm-5.3-flash",
+    "openai/gpt-oss-120b",
+    "deepseek/deepseek-v3.2",
+    "phala/gemma-4-26b-a4b-uncensored",
+    "phala/glm-5.3-uncensored",
+    "ath-maas/ovisocr3",
+    "paddlepaddle/paddleocr-vl-1.6",
+    "xiaomi/xiaomi-ocr-0",
+    "z-ai/glm-ocr"
   ],
   "aliases": {
     "deepseek-v4.1-flash-uncensored": "phala/deepseek-v4.1-flash-1017-uncensored"
